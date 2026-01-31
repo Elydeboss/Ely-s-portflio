@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jesica | Minimal Portfolio",
+  title: "Elijah | Minimal Portfolio",
   description:
     "A minimal portfolio duplicate of jestsee.com built with Next.js and Tailwind CSS.",
 };
@@ -32,7 +32,7 @@ export default function RootLayout({
         className={cn(
           geistSans.variable,
           geistMono.variable,
-          "antialiased min-h-screen bg-background text-foreground font-sans selection:bg-white/20 flex flex-col items-center"
+          "antialiased min-h-screen bg-background text-foreground font-sans selection:bg-white/20 flex flex-col items-center",
         )}
       >
         <div className="w-full max-w-7xl px-6 flex-1 flex flex-col">
